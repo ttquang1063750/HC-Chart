@@ -1,0 +1,136 @@
+body {
+    font: 10px sans-serif;
+}
+
+/*scatter-plot chart*/
+.scatter-plot .axis path,
+.scatter-plot .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.scatter-plot .dot {
+    stroke: #000;
+}
+
+
+
+
+.bivariate .axis path,
+.bivariate .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.bivariate .x.axis path {
+    display: none;
+}
+
+.bivariate .area {
+    fill: steelblue;
+}
+
+
+.modal-lg {
+    width: 1000px !important;
+}
+
+/*BarChart*/
+.Barchart .axis path,
+.Barchart .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.Barchart .bar {
+    fill: orange;
+}
+
+.Barchart .bar:hover {
+    fill: orangered ;
+}
+
+.Barchart .x.axis path {
+    display: none;
+}
+
+.Barchart .d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.Barchart .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.Barchart .d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+.btn-chart{
+    text-align: left;
+    border: 5px solid #428bca;
+    padding: 0 0 0 20px;
+    border-radius: 10px;
+}
+.btn-chart a{
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+    margin: 5px auto;
+    width: 200px;
+}
+.file-input-wrapper.active,
+.file-input-wrapper:hover{
+    -moz-transition: background 1s linear;
+    -o-transition: background 1s linear;
+    -webkit-transition: background 1s linear;
+}
+
+/*Process bar*/
+.progress_bar {
+    background: none repeat scroll 0 0 gray;
+    border: 1px solid #000;
+    border-radius: 5px;
+    clear: both;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0;
+    opacity: 0;
+    padding: 3px;
+    width: 330px;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+}
+.progress_bar.loading {
+    opacity: 1.0;
+}
+.progress_bar .percent {
+    background-color: #428bca;
+    height: auto;
+    width: 0;
+    color: #ffffff;
+    text-align: center;
+}
+.file-input-name{
+    display: none!important;
+}
